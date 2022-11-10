@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block title %} Proyectos {% endblock %}
+</head>
+<body>
+
+<br>
+
+{% block content %}
+
+    <h1>123 probando</h1>
+    <div class="row m-2">
+        {% for project in projects %}
+            <div class="card col-4 m-100 p-100" style="width: 18rem;">
+                <img src="{{ project['project_image'] }}" class="card-img-top" alt="Proyecto">
+                <div class="card-body">
+                    <h5 class="card-title">{{ project.project_name }}</h5>
+                    <p class="card-text">{{ project.project_description }}</p>
+                    <a href="#" class="btn btn-primary">Show more</a>
+                </div>
+            </div>
+
+        {% endfor %}
+    </div>
+{% endblock %}
+
+
+</body>
+</html>

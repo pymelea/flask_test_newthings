@@ -1,0 +1,10 @@
+3. Describa en menos de 10 palablas por comando para que sirven cada
+uno de estos:
+SO          COMANDO
+Cualquiera git stash  ----- # Es un conjunto de cambios que se guardan en una pila
+Cualquiera git add .  ----- # Agregar todos los elementos  nuevos o cambios hechos en el directorio de trabajo
+Cualquiera pdflatex   ----- # Para generar pdf desde proyectos en Latex
+linux kill -HUP 55455 -----Matar un procesos en especifico pero yo prefiero el kill -KILL 55455 y sino localizarlo por el htop el proceso
+linux service vsftpd restart ----- Reiniciar el servicio de ftp en un entorno de ubuntu "systemctl restart vsftpd"
+linux nano  ------  Editor de texto muy basico que viene por defecto en casi todos los escritorios Linux. Prefiero "Neovim"
+linux yum install nginx  ------- Es para instalar el servicio de servidor wbe p como  un proxy inverso que sirve.

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} Detalle del Proyecto  {% endblock %}</title>
+</head>
+<body>
+{% block content %}
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <img src="{{ project('project_images') }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ project('project_name') }}</h5>
+                <p class="card-text">{{ project('project_description') }}</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+</body>
+</html>
